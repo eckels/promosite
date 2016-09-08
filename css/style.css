@@ -1,0 +1,185 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/12/HD-Space-Wallpaper-For-Background-6.jpg");
+	background-attachment: fixed;
+}
+
+.body-wrap {
+	background-color: white;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 0;
+	margin-bottom: 4%;
+	width: 90%;
+	padding: 1%;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	margin: 0;
+	margin-left: 4%;
+	font-size: 300%;
+	float: left;
+	text-shadow: 3px 3px black;
+}
+
+header {
+	margin: 0;
+}
+
+nav {
+	margin: 0;
+}
+
+nav:after {
+	clear: both;
+	content: " ";
+	display: block;
+	margin: 0;
+}
+
+nav ul {
+	float: right;
+	margin: 0;
+	margin-right: 4%;
+	margin-top: 3.5%;
+}
+
+nav li {
+	display: inline;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 120%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+img {
+	width: 70%;
+	border-radius: 5px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h2 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 200%;
+}
+
+.favorite-sites a {
+	text-decoration: none;
+}
+
+.favorite-sites li {
+	padding: 8px;
+	display: inline;
+	background-color: rgba(0, 0, 0, .7);
+	color: white;
+	border-radius: 4px;
+}
+
+.my-schedule {
+	margin: 50px auto 50px auto;
+}
+
+table {
+	background-color: rgba(0, 0, 0, .4);
+	border-radius: 4px;
+}
+
+th {
+	border-bottom: solid black 3px;
+	padding; 5px;
+}
+
+td {
+	border: solid grey 2px;
+	padding: 5px;
+}
+
+.icons {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.icons a {
+	cursor: pointer;
+}
+
+.icons img {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	margin-left: 30px;
+}
+
+#blog {
+	width: 100%;
+}
+
+#blog .post {
+	width: 95%;
+	border: solid black 5px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 2%;
+}
+
+#blog h4 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 200%;
+	margin: 0;
+}
+
+button {
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border: solid black 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 150%;
+	transition: background-color .3s;
+}
+
+button:hover {
+	border-color: blue;
+	background-color: black;
+}
+
+input[type="text"], input[type="email"] {
+	padding: 6px;
+	width: 50%;
+	font-size: 150%;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: blue;
+	display: block;
+	border: none;
+	font-size: 150%;
+	margin-top: 20px;
+	padding: 12px 25px 12px 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.gallery p {
+	text-align: center;
+	margin-bottom: 50px;
+}
